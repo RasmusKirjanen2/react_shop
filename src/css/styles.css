@@ -1,0 +1,306 @@
+
+
+@media screen and (max-width:959px){  /* for tablets */
+    .header2 .list{
+        display:flex;
+        padding:30px;
+        font-size:20px;
+      }
+}
+
+
+@media (max-width:660px){
+    .header2 .list{
+        display:flex;
+        padding:10px;
+        font-size:15px;
+      }
+   
+
+}
+
+@media (max-width:490px){   /* mobile */
+    .randomImg-list{
+        padding-left:0px;
+    }
+    .randomImg-list h2{
+        margin-left:10px;
+    }
+
+    .bottom .order-total-container{
+        font-size:16px;
+    }
+
+    .clearfix .orderMenu-right{
+        float:none;
+    }
+   
+  
+}
+
+
+ul{
+    padding:0px;
+}
+
+body{
+    background:#e8e8e8;
+    height: 100%;
+}
+
+h1{
+    margin:0px;
+}
+
+
+ul{
+    list-style:none;
+}
+
+.wrapper{
+    max-width:500px;
+    margin-top:95px;
+}
+
+.list{
+    padding:50px;
+    float:left;
+    background:#006563;
+    list-style: none;
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family:arial;
+    font-size:30px;
+}
+
+
+body{
+    margin:0px;
+}
+
+
+.list:hover{
+    background:#009693;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .header2 {
+    position: fixed;
+    bottom: 0;
+    right:0;
+    display: flex;
+}
+
+.randomImg{
+  width:100%; 
+}
+
+.randomImg-list li img{
+    cursor:pointer;
+}
+
+
+.title{
+    font-size:30px;
+    font-family: Arial;
+    margin:20px;
+}
+
+.header{
+    position:fixed;
+    top:0;
+    width:100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bold;
+    background:#006563;
+    color:white;
+    display:grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+  
+    padding:10px;
+}
+
+.clear-margin{
+    margin-bottom:120px;
+}
+
+
+
+.hidden {
+    display:none;
+ }
+ .show{
+    display:block;
+ }
+
+
+ .active{
+     Text-decoration : underline;
+     Cursor: pointer
+ }
+
+ .non-active{
+     Text-decoration: none;
+     Cursor: normal
+ }
+
+
+.testing h2, .testing .title{
+    color:white; 
+}
+
+.cart-img{
+    width:30px;
+    cursor:pointer;
+}
+
+.bg-btn{
+    float:right;
+    cursor:pointer;
+    margin-right:30px;
+}
+
+
+.cart-container {
+    border:1px solid white;
+    width:120px;
+    cursor:pointer;
+}
+
+.cart-name{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial;
+    margin-left:8px;
+}
+
+.cart-order-amount{
+    margin-left:6px;
+    color:#ffb100;
+    font-size:24px;
+    font-family: Arial;
+}
+
+.orderMenu{
+    position:fixed;
+    max-width:490px;
+    height:580px;
+    border:5px solid black;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background:#005a59;
+  
+    z-index:10;
+}
+
+
+.randomImg2{
+    width:100%;
+}
+
+.orderMenu-title{
+    text-align:center;
+    color:white;
+}
+
+.orderMenu-left{
+    float:left;
+    max-width:240px;
+}
+.orderMenu-right{
+    font-family: Arial;
+    color:white;
+    float:right;
+  
+    margin:0px;
+    padding:0px 20px 0px;
+
+}
+
+.clearfix{
+    content: "";
+    clear: both;
+    display: table;
+    margin-top:10px;
+}
+
+.order-container{
+    position:absolute;
+    bottom: 0;
+    right:50%;
+    margin-bottom:10px;
+
+}
+
+.order-btn{
+    margin-right:-50px;
+    background-color: #d88200;
+    border: none;
+    color: white;
+    padding: 8px 34px;
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.order-btn:hover{
+    background:#f59300;
+}
+
+.order-btn:focus, .remove-btn:focus {outline:0;}
+
+.remove-btn{
+    background-color: #d88200;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    padding:4px;
+}
+
+
+.order-total-container{
+    position:absolute;
+    font-family:Arial;
+    color:white;
+    bottom: 0;
+    right:0;
+    margin-bottom:10px;
+    margin-right:22px;
+    font-size:21px;
+}
+
+.order-total{
+    float:right;
+}
+
+.inner-container{
+    position:absolute;
+    left:0;
+    top:0;
+    right:0;
+    bottom:70px;
+    overflow-y:scroll;
+}
+
+.bottom{
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    padding:0; 
+}
+
